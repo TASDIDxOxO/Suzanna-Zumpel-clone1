@@ -5,32 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suzanna Zumpel Clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="main">
         <div id="nav">
             <img src="https://www.shutterstock.com/shutterstock/photos/1227276781/display_1500/stock-photo-smile-face-icon-element-of-anime-face-icon-for-mobile-concept-and-web-apps-anime-smile-face-icon-1227276781.jpg" alt="nav-pic">
-            <h5>TASDID IFTESUM</h5>
+            <h5 data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0">TASDID IFTESUM</h5>
         </div>
         <div id="part1"></div>
-        <div id="part2">
+        <div data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0" id="part2">
             <div id="overlay"></div>
         </div>
         <div id="part3"></div>
         <div id="text-div">
-            <h1>HI &#128075;</h1>
-            <h1>I'm</h1>
-            <h1>Tasdid</h1>
-            <h1>iftesum</h1>
+            <h1 data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="50"
+            data-aos-mirror="true">HI &#128075;</h1>
+            <h1 data-aos="fade-right">I'm</h1>
+            <h1 data-aos="fade-right">Tasdid</h1>
+            <h1 data-aos="fade-right">Iftesum</h1>
         </div>
-        <div id="small-img-div">
+        <div data-aos="zoom-in" data-aos-delay="50"
+        data-aos-duration="1000"  id="small-img-div">
             <div id="overlay"></div>
         </div>
         <div id="vertical-text">
-            <h1>Escape The Ordinary</h1>
+            <h1 data-aos="zoom-in" data-aos-delay="50"
+            data-aos-duration="1000">Escape The Ordinary</h1>
         </div>
 
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>
